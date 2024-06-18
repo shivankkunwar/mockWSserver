@@ -1,5 +1,5 @@
-import express from 'express';
-import { WebSocketServer,WebSocket } from 'ws'
+const express = require( 'express');
+const { WebSocketServer, WebSocket } = require( 'ws')
 
 const app = express()
 const httpServer = app.listen(8080)
